@@ -6,7 +6,7 @@ public class Player : MonoBehaviour
 {
 
     [SerializeField]
-    //�ړ��X�e
+    //移動ステ
     private float speed = 0.01f;
 
     // Start is called before the first frame update
@@ -20,7 +20,7 @@ public class Player : MonoBehaviour
     {
         Vector2 position = transform.position;
 
-        //�ړ��L�[
+        //移動キー
         if (Input.GetKey("a"))
         {
             position.x -= speed;
@@ -39,5 +39,15 @@ public class Player : MonoBehaviour
         }
 
         transform.position = position;
+    }
+    private void OnTriggerEnter2D(Collider2D collision)
+    {
+        // 物体がトリガーに接触しとき、１度だけ呼ばれる
+        Debug.Log("b");
+        //接触したオブジェクトのタグが"Orb"のとき
+        if (collision.gameObject.tag == ("Item"))
+        {
+            Debug.Log("アイテムゲット！");
+        }
     }
 }
