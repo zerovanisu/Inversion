@@ -6,7 +6,7 @@ public class Player : MonoBehaviour
 {
 
     [SerializeField]
-    //ˆÚ“®ƒXƒe
+    //ç§»å‹•ã‚¹ãƒ†
     private float speed = 0.01f;
 
     // Start is called before the first frame update
@@ -20,7 +20,7 @@ public class Player : MonoBehaviour
     {
         Vector2 position = transform.position;
 
-        //ˆÚ“®ƒL[
+        //ç§»å‹•ã‚­ãƒ¼
         if (Input.GetKey("a"))
         {
             position.x -= speed;
@@ -40,15 +40,14 @@ public class Player : MonoBehaviour
 
         transform.position = position;
     }
-
     private void OnTriggerEnter2D(Collider2D collision)
     {
-        // •¨‘Ì‚ªƒgƒŠƒK[‚ÉÚG‚µ‚Æ‚«A‚P“x‚¾‚¯ŒÄ‚Î‚ê‚é
+        // ç‰©ä½“ãŒãƒˆãƒªã‚¬ãƒ¼ã«æ¥è§¦ã—ã¨ãã€ï¼‘åº¦ã ã‘å‘¼ã°ã‚Œã‚‹
         Debug.Log("b");
-        //ÚG‚µ‚½ƒIƒuƒWƒFƒNƒg‚Ìƒ^ƒO‚ª"Orb"‚Ì‚Æ‚«
+        //æ¥è§¦ã—ãŸã‚ªãƒ–ã‚¸ã‚§ã‚¯ãƒˆã®ã‚¿ã‚°ãŒ"Orb"ã®ã¨ã
         if (collision.gameObject.tag == ("Item"))
         {
-            Debug.Log("ƒAƒCƒeƒ€ƒQƒbƒgI");
+            Debug.Log("ã‚¢ã‚¤ãƒ†ãƒ ã‚²ãƒƒãƒˆï¼");
         }
     }
 }
