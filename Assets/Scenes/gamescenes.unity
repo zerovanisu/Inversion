@@ -3996,6 +3996,7 @@ GameObject:
   m_Component:
   - component: {fileID: 923625728}
   - component: {fileID: 923625727}
+  - component: {fileID: 923625729}
   m_Layer: 0
   m_Name: LightWizard (1)
   m_TagString: Untagged
@@ -4063,13 +4064,26 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 923625726}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -1.94, y: 0.09, z: 0}
-  m_LocalScale: {x: 0.35, y: 0.35, z: 1}
+  m_LocalPosition: {x: 7.35, y: 3.2615, z: 0}
+  m_LocalScale: {x: 0.436485, y: 0.40187, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}
   m_RootOrder: 6
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &923625729
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 923625726}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d251b91aa939e6c49a5bed76693fc3c7, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  num: 1
 --- !u!1 &955238817
 GameObject:
   m_ObjectHideFlags: 0
@@ -5069,6 +5083,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1329239872}
   - component: {fileID: 1329239871}
+  - component: {fileID: 1329239873}
   m_Layer: 0
   m_Name: LightWizard (2)
   m_TagString: Untagged
@@ -5136,13 +5151,26 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1329239870}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -8.1, y: 0.09, z: 0}
+  m_LocalPosition: {x: -7.68, y: -4.07, z: 0}
   m_LocalScale: {x: 0.35, y: 0.35, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}
   m_RootOrder: 7
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1329239873
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1329239870}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 18997d263e15bb44e85bc268cc0d0c49, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  num: 1
 --- !u!1 &1427247495
 GameObject:
   m_ObjectHideFlags: 0
@@ -5819,6 +5847,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1622016514}
   - component: {fileID: 1622016513}
+  - component: {fileID: 1622016515}
   m_Layer: 0
   m_Name: DarkWizard (1)
   m_TagString: Untagged
@@ -5886,13 +5915,26 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1622016512}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -0.7, y: -2.92, z: 0}
+  m_LocalPosition: {x: -0.76, y: -4.11, z: 0}
   m_LocalScale: {x: 0.35, y: 0.35, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}
   m_RootOrder: 5
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1622016515
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1622016512}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f71a46a674a74ad429c99c611ed7a56c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  num: 1
 --- !u!1 &1628054519
 GameObject:
   m_ObjectHideFlags: 0
@@ -6733,6 +6775,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1762556656}
   - component: {fileID: 1762556655}
+  - component: {fileID: 1762556657}
   m_Layer: 0
   m_Name: DarkWizard
   m_TagString: Untagged
@@ -6800,13 +6843,26 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1762556654}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 7.95, y: -2.92, z: 0}
+  m_LocalPosition: {x: 6.4, y: -1.29, z: 0}
   m_LocalScale: {x: 0.35, y: 0.35, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}
   m_RootOrder: 3
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1762556657
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1762556654}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 83aa702b8aaf0f542a675ed3c6f85f70, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  num: 1
 --- !u!1 &1812012737
 GameObject:
   m_ObjectHideFlags: 0
@@ -7594,6 +7650,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1922470119}
   - component: {fileID: 1922470118}
+  - component: {fileID: 1922470120}
   m_Layer: 0
   m_Name: LightWizard
   m_TagString: Untagged
@@ -7661,13 +7718,26 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1922470117}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 5.73, y: 0.09, z: 0}
+  m_LocalPosition: {x: 4.71, y: 3.24, z: 0}
   m_LocalScale: {x: 0.35, y: 0.35, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}
   m_RootOrder: 4
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1922470120
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1922470117}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d251b91aa939e6c49a5bed76693fc3c7, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  num: 1
 --- !u!1 &1923409342
 GameObject:
   m_ObjectHideFlags: 0
