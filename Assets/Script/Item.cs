@@ -10,12 +10,12 @@ public class Item : MonoBehaviour
     [SerializeField]
     public int Score;
 
-    //アイテムの皮
-    SpriteRenderer Item_Coller { get; set; }
-
     [Header("点滅速度")]
     [SerializeField]
     float Fead_Speed;
+
+    //アイテムの皮
+    SpriteRenderer Item_Coller { get; set; }
 
     //色用の数値
     [SerializeField]

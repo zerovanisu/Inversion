@@ -104,7 +104,7 @@ public class Player : MonoBehaviour
 
             //「この当たったコリジョンを持つ、ゲームオブジェクトの、Itemスクリプト内にある、Scoreの値」
             //をこのスクリプトが持ってるScoreに代入している
-            Score = collision.gameObject.GetComponent<Item>().Score;//スコアを取得
+            Score += collision.gameObject.GetComponent<Item>().Score;//スコアを取得
 
 
 
@@ -117,6 +117,14 @@ public class Player : MonoBehaviour
             //するとこのScoreを自分の持ってるScoreで処理して「戻ってくる」のだ！
 
             G_Director.Score_Update(Score);//スコアを反映
+        }
+
+        //当たったのが敵だったら
+        if(collision.gameObject.tag == "Enemy")
+        {
+            G_Director.GameOver();
+
+            Destroy(this.gameObject);
         }
     }
 }
